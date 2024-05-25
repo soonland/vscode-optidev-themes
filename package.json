@@ -13,24 +13,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Windows XP Light",
-        "uiTheme": "vs",
-        "path": "./themes/windows-xp-light.json"
-      },
-      {
-        "label": "Windows XP Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/windows-xp-dark.json"
-      },
-      {
         "label": "Windows 98",
         "uiTheme": "vs",
         "path": "./themes/windows-98.json"
       },
       {
-        "label": "Windows 3.1",
+        "label": "Windows ME",
         "uiTheme": "vs",
-        "path": "./themes/windows-3.1.json"
+        "path": "./themes/windows-me.json"
+      },
+      {
+        "label": "Windows XP Dark",
+        "uiTheme": "vs",
+        "path": "./themes/windows-xp-dark.json"
+      },
+      {
+        "label": "Windows XP Light",
+        "uiTheme": "vs",
+        "path": "./themes/windows-xp-light.json"
       }
     ]
   },
