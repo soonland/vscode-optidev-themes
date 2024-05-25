@@ -1,0 +1,55 @@
+{
+  "name": "retro-windows-themes",
+  "displayName": "Retro Windows Themes",
+  "description": "A collection of VS Code themes inspired by classic Windows operating systems.",
+  "version": "1.0.0",
+  "publisher": "soonland",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Windows XP Light",
+        "uiTheme": "vs",
+        "path": "./themes/windows-xp-light.json"
+      },
+      {
+        "label": "Windows XP Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/windows-xp-dark.json"
+      },
+      {
+        "label": "Windows 98",
+        "uiTheme": "vs",
+        "path": "./themes/windows-98.json"
+      },
+      {
+        "label": "Windows 3.1",
+        "uiTheme": "vs",
+        "path": "./themes/windows-3.1.json"
+      }
+    ]
+  },
+  "keywords": [
+    "vscode",
+    "themes",
+    "windows",
+    "retro"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soonland/retro-windows-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soonland/retro-windows-themes/issues"
+  },
+  "homepage": "https://github.com/soonland/retro-windows-themes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

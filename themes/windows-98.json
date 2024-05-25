@@ -1,0 +1,71 @@
+{
+  "name": "Windows 98",
+  "type": "light",
+  "colors": {
+    "editor.background": "#C0C0C0",
+    "editor.foreground": "#000000",
+    "activityBar.background": "#000080",
+    "sideBar.background": "#808080",
+    "sideBar.foreground": "#000000",
+    "statusBar.background": "#000080",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#000080",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#808080",
+    "titleBar.inactiveForeground": "#FFFFFF",
+    "button.background": "#D4D0C8",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#FFFFFF",
+    "dropdown.background": "#D4D0C8",
+    "dropdown.foreground": "#000000",
+    "input.background": "#FFFFFF",
+    "input.foreground": "#000000",
+    "input.border": "#808080",
+    "list.activeSelectionBackground": "#3399FF",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.inactiveSelectionBackground": "#808080",
+    "list.inactiveSelectionForeground": "#FFFFFF",
+    "panel.background": "#C0C0C0",
+    "panel.border": "#808080",
+    "terminal.background": "#C0C0C0",
+    "terminal.foreground": "#000000"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#3399FF"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#000080"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#000080"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#000080"
+      }
+    }
+  ]
+}

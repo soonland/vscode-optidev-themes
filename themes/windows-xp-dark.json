@@ -1,0 +1,71 @@
+{
+  "name": "Windows XP Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#D4D4D4",
+    "activityBar.background": "#3A6EA5",
+    "sideBar.background": "#333333",
+    "sideBar.foreground": "#D4D4D4",
+    "statusBar.background": "#3A6EA5",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#3A6EA5",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#1E4D7A",
+    "titleBar.inactiveForeground": "#FFFFFF",
+    "button.background": "#39A006",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#4CC417",
+    "dropdown.background": "#3A3A3A",
+    "dropdown.foreground": "#D4D4D4",
+    "input.background": "#252526",
+    "input.foreground": "#D4D4D4",
+    "input.border": "#B4B4B4",
+    "list.activeSelectionBackground": "#3A6EA5",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.inactiveSelectionBackground": "#1E4D7A",
+    "list.inactiveSelectionForeground": "#FFFFFF",
+    "panel.background": "#1E1E1E",
+    "panel.border": "#333333",
+    "terminal.background": "#1E1E1E",
+    "terminal.foreground": "#D4D4D4"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#39A006"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#4CC417"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#1E4D7A"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#1E4D7A"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#3A6EA5"
+      }
+    }
+  ]
+}
