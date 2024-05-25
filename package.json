@@ -1,9 +1,15 @@
 {
-  "name": "retro-windows-themes",
-  "displayName": "Retro Windows Themes",
+  "name": "vscode-optidev-themes",
+  "displayName": "OptiDev Retro Windows Themes",
   "description": "A collection of VS Code themes inspired by classic Windows operating systems.",
   "version": "1.0.0",
   "publisher": "soonland",
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#2a6dab",
+    "theme": "dark"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -40,15 +46,14 @@
     "windows",
     "retro"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soonland/retro-windows-themes.git"
+    "url": "https://github.com/soonland/vscode-optidev-themes.git"
   },
   "bugs": {
-    "url": "https://github.com/soonland/retro-windows-themes/issues"
+    "url": "https://github.com/soonland/vscode-optidev-themes/issues"
   },
-  "homepage": "https://github.com/soonland/retro-windows-themes",
+  "homepage": "https://github.com/soonland/vscode-optidev-themes",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
