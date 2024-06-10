@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.2 - 2024-06-09
+### New
+- 🚀 **Windows 7**: Carry the legacy of Windows 7 forward, enhancing your experience with every click.
+
+## v1.0.1 - 2024-05-24
+### Fixes
+- Minor adjustments
+
 ## v1.0.0 - 2024-05-25
 
 ### New

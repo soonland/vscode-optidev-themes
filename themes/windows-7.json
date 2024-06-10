@@ -1,0 +1,71 @@
+{
+  "name": "Windows 7",
+  "type": "light",
+  "colors": {
+    "editor.background": "#CCCCCC",
+    "editor.foreground": "#000000",
+    "activityBar.background": "#125cba",
+    "sideBar.background": "#CCCCCC",
+    "sideBar.foreground": "#000000",
+    "statusBar.background": "#125cba",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#125cba",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#4682B4",
+    "titleBar.inactiveForeground": "#FFFFFF",
+    "button.background": "#4682B4",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#00BFFF",
+    "dropdown.background": "#4682B4",
+    "dropdown.foreground": "#000000",
+    "input.background": "#FFFFFF",
+    "input.foreground": "#000000",
+    "input.border": "#808080",
+    "list.activeSelectionBackground": "#4682B4",
+    "list.activeSelectionForeground": "#000000",
+    "list.inactiveSelectionBackground": "#808080",
+    "list.inactiveSelectionForeground": "#000000",
+    "panel.background": "#CCCCCC",
+    "panel.border": "#808080",
+    "terminal.background": "#CCCCCC",
+    "terminal.foreground": "#000000"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#008000"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#000080"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#000080"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#000080"
+      }
+    }
+  ]
+}
