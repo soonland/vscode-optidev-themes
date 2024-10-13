@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0 - 2024-10-13
+### Fixes
+- Major adjustments to Windows 98 theme
+
 ## v1.0.2 - 2024-06-09
 ### New
 - 🚀 **Windows 7**: Carry the legacy of Windows 7 forward, enhancing your experience with every click.
