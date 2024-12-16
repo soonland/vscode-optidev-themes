@@ -18,7 +18,7 @@
     "dropdown.listBackground": "#fdffff",
     "editor.background": "#fdffff",
     "editor.findMatchBackground": "#ff0081",
-    "editor.findMatchHighlightBackground": "#ff0081",
+    "editor.findMatchHighlightBackground": "#ff008100",
     "editorCursor.foreground": "#000000",
     "editorGroup.dropBackground": "#818181",
     "editorGutter.background": "#008080",
@@ -46,7 +46,7 @@
     "list.inactiveSelectionBackground": "#818181",
     "list.inactiveSelectionForeground": "#fdffff",
     "list.warningForeground": "#008080",
-    "minimap.selectionHighlight": "#ff0081",
+    "minimap.selectionHighlight": "#ff008100",
     "panel.background": "#e5e5e5",
     "quickInput.background": "#fdffff",
     "quickInputList.focusBackground": "#010081",
@@ -64,7 +64,7 @@
     "titleBar.inactiveBackground": "#c3c3c3",
     "titleBar.inactiveForeground": "#000000",
     "toolbar.hoverBackground": "#818181",
-    "toolbar.hoverOutline": "#010081",
+    "toolbar.hoverOutline": "#010081"
   },
   "tokenColors": [
     {
