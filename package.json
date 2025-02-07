@@ -39,6 +39,11 @@
         "path": "./themes/windows-xp-light.json"
       },
       {
+        "label": "Windows XP Blue",
+        "uiTheme": "vs",
+        "path": "./themes/windows-xp-blue.json"
+      },
+      {
         "label": "Windows 7",
         "uiTheme": "vs",
         "path": "./themes/windows-7.json"

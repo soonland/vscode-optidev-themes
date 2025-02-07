@@ -29,6 +29,9 @@ You can install Retro Windows Themes directly from the [Visual Studio Code Marke
 
 ## Included Themes
 
+### Windows XP Blue
+![Windows XP Light Preview](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-xp-blue.png)
+
 ### Windows XP Light
 ![Windows XP Light Preview](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-xp-light.png)
 

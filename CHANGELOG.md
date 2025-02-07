@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.4 - 2025-02-06
+### New
+- 🟦 **Windows XP Blue** theme
+
 ## v1.1.0 - 2024-10-13
 ### Fixes
 - Major adjustments to Windows 98 theme

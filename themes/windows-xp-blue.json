@@ -1,0 +1,97 @@
+{
+  "name": "Windows XP Blue",
+  "type": "light",
+  "$schema": "vscode://schemas/color-theme",
+  "colors": {
+    "activityBar.background": "#003399",
+    "activityBar.foreground": "#ffffff",
+    "activityBarBadge.background": "#ffcc00",
+    "activityBarBadge.foreground": "#003399",
+    "badge.background": "#003399",
+    "badge.foreground": "#ffffff",
+    "button.background": "#3399ff",
+    "dropdown.background": "#c0d8ff",
+    "dropdown.border": "#6699cc",
+    "dropdown.foreground": "#003399",
+    "editor.background": "#ffffff",
+    "editor.findMatchBackground": "#ffcc00",
+    "editor.findMatchHighlightBackground": "#ffcc0033",
+    "editorCursor.foreground": "#000000",
+    "editorGroup.dropBackground": "#3399ff33",
+    "editorGutter.background": "#b0c4de",
+    "editorLineNumber.activeForeground": "#003399",
+    "editorLineNumber.foreground": "#6699cc",
+    "editorWhitespace.foreground": "#c0c0c0",
+    "editorWidget.background": "#c0d8ff",
+    "editorWidget.foreground": "#000000",
+    "errorForeground": "#cc0000",
+    "focusBorder": "#003399",
+    "input.background": "#ffffff",
+    "input.border": "#003399",
+    "input.foreground": "#000000",
+    "input.placeholderForeground": "#6699cc",
+    "inputOption.activeBackground": "#c0d8ff",
+    "inputOption.activeBorder": "#003399",
+    "list.activeSelectionBackground": "#003399",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#c0d8ff",
+    "list.inactiveSelectionForeground": "#003399",
+    "list.warningForeground": "#ff6600",
+    "panel.background": "#e3eefc",
+    "quickInput.background": "#ffffff",
+    "quickInputList.focusBackground": "#003399",
+    "sideBar.background": "#b0c4de",
+    "sideBarSectionHeader.background": "#003399",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "statusBar.background": "#003399",
+    "statusBar.noFolderBackground": "#003399",
+    "tab.activeBackground": "#003399",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#b0c4de",
+    "tab.inactiveForeground": "#003399",
+    "titleBar.activeBackground": "#003399",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#b0c4de",
+    "titleBar.inactiveForeground": "#003399",
+    "toolbar.hoverBackground": "#3399ff",
+    "toolbar.hoverOutline": "#003399"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6699cc"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#ff6600"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#003399"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#003399"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#003399"
+      }
+    }
+  ]
+}
