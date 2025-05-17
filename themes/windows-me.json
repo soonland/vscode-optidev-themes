@@ -1,74 +1,192 @@
 {
   "name": "Windows Millennium",
   "type": "light",
+  "$schema": "vscode://schemas/color-theme",
   "colors": {
-    "editor.background": "#CCCCCC",
-    "editor.foreground": "#000000",
-    "activityBar.background": "#696969",
-    "sideBar.background": "#CCCCCC",
-    "sideBar.foreground": "#000000",
-    "statusBar.background": "#696969",
-    "statusBar.foreground": "#FFFFFF",
-    "titleBar.activeBackground": "#696969",
-    "titleBar.activeForeground": "#FFFFFF",
-    "titleBar.inactiveBackground": "#4682B4",
-    "titleBar.inactiveForeground": "#FFFFFF",
-    "button.background": "#4682B4",
-    "button.foreground": "#FFFFFF",
-    "button.hoverBackground": "#00BFFF",
-    "button.hoverBorder": "#FFFFFF",
+    "activityBar.background": "#000080",
+    "activityBar.border": "#808080",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBarBadge.background": "#FF0000",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "badge.background": "#000080",
+    "badge.foreground": "#FFFFFF",
+    "button.background": "#C0C0C0",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#FFFFFF",
+    "button.border": "#808080",
+    "button.secondaryBackground": "#C0C0C0",
     "button.secondaryForeground": "#000000",
-    "button.secondaryBackground": "#4682B4",
-    "button.secondaryHoverBackground": "#00BFFF",
-    "dropdown.background": "#4682B4",
+    "button.secondaryHoverBackground": "#FFFFFF",
+    "dropdown.background": "#FFFFFF",
+    "dropdown.border": "#808080",
     "dropdown.foreground": "#000000",
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editor.lineHighlightBackground": "#0000801A",
+    "editor.selectionBackground": "#000080",
+    "editor.selectionForeground": "#FFFFFF",
+    "editorCursor.foreground": "#000000",
+    "editorGroup.border": "#808080",
+    "editorGroup.dropBackground": "#0000801A",
+    "editorLineNumber.activeForeground": "#000080",
+    "editorLineNumber.foreground": "#808080",
+    "editorWhitespace.foreground": "#C0C0C0",
+    "focusBorder": "#000080",
     "input.background": "#FFFFFF",
-    "input.foreground": "#000000",
     "input.border": "#808080",
-    "list.activeSelectionBackground": "#4682B4",
-    "list.activeSelectionForeground": "#000000",
-    "list.inactiveSelectionBackground": "#808080",
+    "input.foreground": "#000000",
+    "input.placeholderForeground": "#808080",
+    "list.activeSelectionBackground": "#000080",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.dropBackground": "#0000801A",
+    "list.focusBackground": "#000080",
+    "list.focusForeground": "#FFFFFF",
+    "list.highlightForeground": "#000080",
+    "list.hoverBackground": "#0000801A",
+    "list.inactiveSelectionBackground": "#C0C0C0",
     "list.inactiveSelectionForeground": "#000000",
-    "panel.background": "#CCCCCC",
+    "menu.background": "#C0C0C0",
+    "menu.border": "#808080",
+    "menu.foreground": "#000000",
+    "menu.selectionBackground": "#000080",
+    "menu.selectionForeground": "#FFFFFF",
+    "menubar.selectionBackground": "#000080",
+    "menubar.selectionForeground": "#FFFFFF",
+    "panel.background": "#C0C0C0",
     "panel.border": "#808080",
-    "terminal.background": "#CCCCCC",
-    "terminal.foreground": "#000000"
+    "scrollbar.shadow": "#808080",
+    "scrollbarSlider.activeBackground": "#000080CC",
+    "scrollbarSlider.background": "#C0C0C080",
+    "scrollbarSlider.hoverBackground": "#00008066",
+    "sideBar.background": "#C0C0C0",
+    "sideBar.border": "#808080",
+    "sideBar.foreground": "#000000",
+    "sideBarSectionHeader.background": "#000080",
+    "sideBarSectionHeader.foreground": "#FFFFFF",
+    "statusBar.background": "#000080",
+    "statusBar.border": "#808080",
+    "statusBar.foreground": "#FFFFFF",
+    "tab.activeBackground": "#E5E5E5",
+    "tab.activeBorder": "#FFFFFF",
+    "tab.activeForeground": "#000000",
+    "tab.activeModifiedBorder": "#FF0000",
+    "tab.border": "#808080",
+    "tab.inactiveBackground": "#C0C0C0",
+    "tab.inactiveForeground": "#000000",
+    "tab.inactiveModifiedBorder": "#FF0000",
+    "tab.hoverBackground": "#0000A0",
+    "tab.hoverForeground": "#FFFFFF",
+    "terminal.background": "#FFFFFF",
+    "terminal.foreground": "#000000",
+    "titleBar.activeBackground": "#000080",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.border": "#808080",
+    "titleBar.inactiveBackground": "#C0C0C0",
+    "titleBar.inactiveForeground": "#000000"
   },
   "tokenColors": [
     {
-      "scope": "comment",
-      "settings": {
-        "foreground": "#808080"
-      }
-    },
-    {
-      "scope": "string",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#008000"
       }
     },
     {
-      "scope": "keyword",
+      "scope": [
+        "string",
+        "constant.other.symbol"
+      ],
       "settings": {
-        "foreground": "#000080"
+        "foreground": "#800000"
       }
     },
     {
-      "scope": "variable",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#FF0000"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#000080",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#800080"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "support.variable",
+        "entity.name.variable"
+      ],
       "settings": {
         "foreground": "#000000"
       }
     },
     {
-      "scope": "constant",
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#000080"
       }
     },
     {
-      "scope": "type",
+      "scope": [
+        "markup.heading",
+        "entity.name.section"
+      ],
       "settings": {
-        "foreground": "#000080"
+        "foreground": "#000080",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code.block"
+      ],
+      "settings": {
+        "foreground": "#800000"
       }
     }
   ]

@@ -1,0 +1,115 @@
+{
+  "name": "Windows 3.1 Classic",
+  "type": "light",
+  "$schema": "vscode://schemas/color-theme",
+  "colors": {
+    "activityBar.background": "#C0C0C0",
+    "activityBar.foreground": "#000000",
+    "activityBarBadge.background": "#000080",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "button.background": "#C0C0C0",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#FFFFFF",
+    "dropdown.background": "#C0C0C0",
+    "dropdown.foreground": "#000000",
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editor.lineHighlightBackground": "#0000801A",
+    "editor.selectionBackground": "#000080",
+    "editor.selectionForeground": "#FFFFFF",
+    "editorLineNumber.foreground": "#808080",
+    "editorLineNumber.activeForeground": "#000080",
+    "focusBorder": "#000080",
+    "list.activeSelectionBackground": "#000080",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.hoverBackground": "#0000801A",
+    "list.inactiveSelectionBackground": "#C0C0C0",
+    "panel.background": "#C0C0C0",
+    "panel.border": "#808080",
+    "scrollbar.shadow": "#808080",
+    "sideBar.background": "#C0C0C0",
+    "sideBar.foreground": "#000000",
+    "sideBarTitle.foreground": "#000000",
+    "statusBar.background": "#C0C0C0",
+    "statusBar.foreground": "#000000",
+    "statusBar.border": "#FFFFFF",
+    "tab.activeBackground": "#E5E5E5",
+    "tab.activeForeground": "#000000",
+    "tab.inactiveBackground": "#808080",
+    "tab.inactiveForeground": "#000000",
+    "titleBar.activeBackground": "#000080",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#808080",
+    "titleBar.inactiveForeground": "#C0C0C0",
+    "window.activeBorder": "#000080",
+    "window.inactiveBorder": "#808080"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#008000"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#800000"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#FF0000"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#000080"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#800080"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#000080"
+      }
+    }
+  ]
+}
