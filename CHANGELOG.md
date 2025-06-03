@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.1 - 2025-06-03
+### Improvements
+- 🖌️ **Better readibility for the following :**
+  - Selection colors in editor
+ -  Active/inactive items in list view (such as `Ctrl+Shift+P` / `Cmd+Shift+P`, or File Explorer)
+
 ## v1.2.0 - 2025-05-17
 ### New
 - 🎮 **Windows 3.1 Classic**: Experience the nostalgic look of the original Windows 3.1 with authentic colors and design
