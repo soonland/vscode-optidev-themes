@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.3.0 - 2025-06-12
+### New
+- 🎨 **Windows 98 Theme Variants**:
+  - **Eggplant**: Deep purple theme with sage accents
+  - **Desert**: Warm sandy theme using earthy tones
+  - **Rainy Day**: Soft blue-gray theme for cloudy days
+
+### Improvements
+- 🔄 **Windows ME Theme Update**:
+  - Refreshed color scheme
+  - Enhanced UI with soft blue accents
+  - Added complementary shades for better contrast
+  - Improved overall visual harmony
+
 ## v1.2.1 - 2025-06-03
 ### Improvements
 - 🖌️ **Better readibility for the following :**

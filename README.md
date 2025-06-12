@@ -23,7 +23,11 @@ Retro Windows Themes is a comprehensive collection of Visual Studio Code themes 
 
 ### Classic Era
 - **Windows ME** 💿: Authentic Windows Millennium Edition styling
-- **Windows 98** 🖥️: Relive the classic 90s interface
+- **Windows 98** 🖥️: The classic 90s interface
+- **Windows 98 Variants** 🎨:
+  - **Eggplant**: Rich purple tones with sage accents
+  - **Desert**: Warm sandy browns and tans
+  - **Rainy Day**: Soft blue-gray tones for cloudy days
 - **Windows 3.1** 🎮: Experience the original 16-bit aesthetic
 
 ## 🚀 Installation
@@ -51,9 +55,16 @@ Or manually:
 ![Windows XP Dark](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-xp-dark.png)
 ![Windows XP Blue](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-xp-blue.png)
 
-### Classic Windows
+### Windows ME
 ![Windows ME](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-me.png)
+
+### Windows 98
 ![Windows 98](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-98.png)
+![Windows 98 Eggplant](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-98-eggplant.png)
+![Windows 98 Desert](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-98-desert.png)
+![Windows 98 Rainy Day](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-98-rainy-day.png)
+
+### Windows 3.1
 ![Windows 3.1](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-31-classic.png)
 
 ## 🛠️ Customization

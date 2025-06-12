@@ -29,6 +29,21 @@
         "path": "./themes/windows-98.json"
       },
       {
+        "label": "Windows 98 Eggplant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/windows-98-eggplant.json"
+      },
+      {
+        "label": "Windows 98 Desert",
+        "uiTheme": "vs-dark",
+        "path": "./themes/windows-98-desert.json"
+      },
+      {
+        "label": "Windows 98 Rainy Day",
+        "uiTheme": "vs-dark",
+        "path": "./themes/windows-98-rainy-day.json"
+      },
+      {
         "label": "Windows ME",
         "uiTheme": "vs",
         "path": "./themes/windows-me.json"
