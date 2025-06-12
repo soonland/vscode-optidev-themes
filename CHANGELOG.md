@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.3.0 - 2025-06-12
+## v1.2.5 - 2025-06-12
 ### New
 - 🎨 **Windows 98 Theme Variants**:
   - **Eggplant**: Deep purple theme with sage accents
