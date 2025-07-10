@@ -2,7 +2,7 @@
   "name": "vscode-optidev-themes",
   "displayName": "OptiDev Retro Windows Themes",
   "description": "A collection of VS Code themes inspired by classic Windows operating systems.",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "publisher": "soonland",
   "icon": "media/icon.png",
   "galleryBanner": {
