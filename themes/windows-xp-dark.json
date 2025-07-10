@@ -30,6 +30,7 @@
     "editorLineNumber.foreground": "#666666",
     "editorWhitespace.foreground": "#404040",
     "focusBorder": "#1E4D7A",
+    "icon.foreground": "#FFFFFF",
     "input.background": "#2A2A2A",
     "input.border": "#153655",
     "input.foreground": "#FFFFFF",

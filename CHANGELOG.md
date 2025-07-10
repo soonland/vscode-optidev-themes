@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.6 - 2025-07-10
+### Improvements
+- Better readability for icons in the title section of side bar panels (such as open editors, timeline and outline panel)
+### Fix
+- Adjusted extension version number in CHANGELOG
+
 ## v1.2.5 - 2025-06-12
 ### New
 - 🎨 **Windows 98 Theme Variants**:
@@ -16,9 +22,9 @@
 
 ## v1.2.1 - 2025-06-03
 ### Improvements
-- 🖌️ **Better readibility for the following :**
+- 🖌️ **Better readability for the following :**
   - Selection colors in editor
- -  Active/inactive items in list view (such as `Ctrl+Shift+P` / `Cmd+Shift+P`, or File Explorer)
+  -  Active/inactive items in list view (such as `Ctrl+Shift+P` / `Cmd+Shift+P`, or File Explorer)
 
 ## v1.2.0 - 2025-05-17
 ### New

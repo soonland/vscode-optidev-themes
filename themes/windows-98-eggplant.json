@@ -35,6 +35,7 @@
     "editorWidget.foreground": "#ffffff",
     "errorForeground": "#ff6b6b",
     "focusBorder": "#90B0A8",
+    "icon.foreground": "#FFFFFF",
     "input.background": "#382538",
     "input.border": "#2d1f2d",
     "input.foreground": "#ffffff",

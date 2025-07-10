@@ -29,6 +29,7 @@
     "editorLineNumber.foreground": "#003399",
     "editorWhitespace.foreground": "#D1E4FE",
     "focusBorder": "#0054E3",
+    "icon.foreground": "#FFFFFF",
     "input.background": "#FFFFFF",
     "input.border": "#003399",
     "input.foreground": "#000000",
@@ -77,7 +78,7 @@
     "titleBar.activeForeground": "#FFFFFF",
     "titleBar.border": "#003399",
     "titleBar.inactiveBackground": "#D1E4FE",
-    "titleBar.inactiveForeground": "#000000"
+    "titleBar.inactiveForeground": "#000000",
   },
   "tokenColors": [
     {
