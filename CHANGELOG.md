@@ -1,5 +1,9 @@
 # Changelog
 
+## v1,2,7 - 2025-12-24
+### Improvements
+- Finetuning colors in some Windows XP themes and Windows 7 theme
+
 ## v1.2.6 - 2025-07-10
 ### Improvements
 - Better readability for icons in the title section of side bar panels (such as open editors, timeline and outline panel)

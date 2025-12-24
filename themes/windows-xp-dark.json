@@ -51,6 +51,8 @@
     "menu.selectionForeground": "#FFFFFF",
     "panel.background": "#2A2A2A",
     "panel.border": "#153655",
+    "panelTitle.activeForeground": "#FFFFFF",
+    "panelTitle.inactiveForeground": "#AAAAAA",
     "scrollbar.shadow": "#000000",
     "scrollbarSlider.activeBackground": "#1E4D7ACC",
     "scrollbarSlider.background": "#40404080",
