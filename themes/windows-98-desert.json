@@ -6,8 +6,11 @@
     "activityBar.background": "#7B6E4D",
     "activityBar.border": "#5A5139",
     "activityBar.foreground": "#ffffff",
+    "activityBar.inactiveForeground": "#FFFFFF80",
     "activityBarBadge.background": "#9A8960",
     "activityBarBadge.foreground": "#ffffff",
+    "badge.background": "#9A8960",
+    "badge.foreground": "#ffffff",
     "button.background": "#7B6E4D",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#8B7D58",
@@ -63,6 +66,8 @@
     "menubar.selectionForeground": "#ffffff",
     "panel.background": "#7B6E4D",
     "panel.border": "#5A5139",
+    "panelTitle.activeForeground": "#E6DCC4",
+    "panelTitle.inactiveForeground": "#9A8960",
     "quickInput.background": "#7B6E4D",
     "quickInput.foreground": "#ffffff",
     "quickInputList.focusBackground": "#9A8960",
@@ -86,6 +91,34 @@
     "tab.border": "#5A5139",
     "tab.inactiveBackground": "#7B6E4D",
     "tab.inactiveForeground": "#B9A473",
+    "diffEditor.insertedLineBackground": "#7A9A5A1A",
+    "diffEditor.insertedTextBackground": "#7A9A5A33",
+    "diffEditor.removedLineBackground": "#C05A5A1A",
+    "diffEditor.removedTextBackground": "#C05A5A33",
+    "gitDecoration.addedResourceForeground": "#7A9A5A",
+    "gitDecoration.conflictingResourceForeground": "#C07A4A",
+    "gitDecoration.deletedResourceForeground": "#C05A5A",
+    "gitDecoration.ignoredResourceForeground": "#9A8960",
+    "gitDecoration.modifiedResourceForeground": "#B9A473",
+    "gitDecoration.untrackedResourceForeground": "#7A9A5A",
+    "terminal.background": "#5A5139",
+    "terminal.foreground": "#E6DCC4",
+    "terminal.ansiBlack": "#2D2920",
+    "terminal.ansiRed": "#8B3A3A",
+    "terminal.ansiGreen": "#5A7A4A",
+    "terminal.ansiYellow": "#9A8960",
+    "terminal.ansiBlue": "#4A5A7A",
+    "terminal.ansiMagenta": "#7A4A6A",
+    "terminal.ansiCyan": "#4A7A6A",
+    "terminal.ansiWhite": "#B9A473",
+    "terminal.ansiBrightBlack": "#5A5139",
+    "terminal.ansiBrightRed": "#C05A5A",
+    "terminal.ansiBrightGreen": "#7A9A5A",
+    "terminal.ansiBrightYellow": "#D4C088",
+    "terminal.ansiBrightBlue": "#6A8AC0",
+    "terminal.ansiBrightMagenta": "#A06A8A",
+    "terminal.ansiBrightCyan": "#6AAAA0",
+    "terminal.ansiBrightWhite": "#E6DCC4",
     "titleBar.activeBackground": "#9A8960",
     "titleBar.activeForeground": "#ffffff",
     "titleBar.border": "#5A5139",
@@ -103,7 +136,8 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#B9A473"
+        "foreground": "#7A8A6A",
+        "fontStyle": "italic"
       }
     },
     {
@@ -112,7 +146,7 @@
         "constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#B9A473"
+        "foreground": "#C09060"
       }
     },
     {
@@ -123,7 +157,7 @@
         "constant.other"
       ],
       "settings": {
-        "foreground": "#9A8960"
+        "foreground": "#C07A50"
       }
     },
     {
@@ -133,7 +167,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#B9A473",
+        "foreground": "#D4C088",
         "fontStyle": "bold"
       }
     },
@@ -143,7 +177,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#9A8960"
+        "foreground": "#6A9A8A"
       }
     },
     {
@@ -163,7 +197,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#B9A473"
+        "foreground": "#A8C0A0"
       }
     },
     {
@@ -199,6 +233,33 @@
       ],
       "settings": {
         "foreground": "#9A8960"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#B9A473",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["variable.language"],
+      "settings": {
+        "foreground": "#B9A473",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#6AAAA0"
+      }
+    },
+    {
+      "scope": ["invalid.illegal"],
+      "settings": {
+        "foreground": "#C05A5A",
+        "fontStyle": "bold"
       }
     }
   ]

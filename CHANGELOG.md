@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.3.0 - 2026-03-07
+### Fixes
+- Fixed JSON syntax error (trailing comma) in Windows XP Blue theme
+- Fixed Windows XP Dark incorrectly declared as a light theme (`uiTheme: vs` → `vs-dark`), which was causing white backgrounds throughout the theme
+- Fixed `icon.foreground` on all light themes (was `#FFFFFF`, making editor toolbar icons invisible against light backgrounds)
+- Fixed `list.inactiveSelectionBackground` on Windows XP Dark (was light gray `#DADADA`, copied from the light variant)
+
+### Improvements
+- **Terminal colors**: Added full 16-color ANSI palette (`terminal.ansi*`) to all themes, with colors derived from each theme's own palette
+- **Git decorations**: Added `gitDecoration.*` colors to all themes so modified/added/deleted/untracked files are properly colored in the Explorer
+- **Diff editor**: Added `diffEditor.*` colors to all themes for inline diff and merge editor views
+- **Activity bar**: Added `activityBar.inactiveForeground` to all themes so inactive icons are visible alongside extensions like Claude Code
+- **Syntax highlighting**: Added token color scopes missing from all themes — `variable.parameter` (italic), `variable.language` (`this`/`self`), `meta.object-literal.key` (object/JSON keys), `invalid.illegal` (syntax errors)
+- **Consistency**: Added missing `badge`, `panelTitle`, and `toolbar` color keys to themes that were lacking them
+- **Windows 98 Desert**: Differentiated previously near-identical token colors — comments (olive), strings (amber), constants (burnt orange), keywords (bright gold), functions (teal), types (sage)
+- **Windows 98 Eggplant**: Differentiated previously near-identical token colors — comments (muted purple), strings (sage green), constants (gold), keywords (pink-purple), functions (blue-teal), types (sky blue)
+
 ## v1,2,7 - 2025-12-24
 ### Improvements
 - Finetuning colors in some Windows XP themes and Windows 7 theme

@@ -6,6 +6,7 @@
     "activityBar.background": "#0054E3",
     "activityBar.border": "#003399",
     "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#FFFFFF80",
     "activityBarBadge.background": "#ED2C28",
     "activityBarBadge.foreground": "#FFFFFF",
     "badge.background": "#0054E3",
@@ -29,7 +30,7 @@
     "editorLineNumber.foreground": "#003399",
     "editorWhitespace.foreground": "#D1E4FE",
     "focusBorder": "#0054E3",
-    "icon.foreground": "#FFFFFF",
+    "icon.foreground": "#000000",
     "input.background": "#FFFFFF",
     "input.border": "#003399",
     "input.foreground": "#000000",
@@ -49,6 +50,8 @@
     "menu.selectionForeground": "#FFFFFF",
     "panel.background": "#c3dcfe",
     "panel.border": "#003399",
+    "panelTitle.activeForeground": "#000000",
+    "panelTitle.inactiveForeground": "#808080",
     "scrollbar.shadow": "#D1E4FE",
     "scrollbarSlider.activeBackground": "#0054E3CC",
     "scrollbarSlider.background": "#D1E4FECC",
@@ -72,11 +75,39 @@
     "tab.hoverForeground": "#FFFFFF",
     "terminal.background": "#FFFFFF",
     "terminal.foreground": "#000000",
+    "diffEditor.insertedLineBackground": "#2CC4361A",
+    "diffEditor.insertedTextBackground": "#2CC43633",
+    "diffEditor.removedLineBackground": "#ED2C281A",
+    "diffEditor.removedTextBackground": "#ED2C2833",
+    "gitDecoration.addedResourceForeground": "#2CC436",
+    "gitDecoration.conflictingResourceForeground": "#FF8C00",
+    "gitDecoration.deletedResourceForeground": "#ED2C28",
+    "gitDecoration.ignoredResourceForeground": "#808080",
+    "gitDecoration.modifiedResourceForeground": "#0054E3",
+    "gitDecoration.untrackedResourceForeground": "#2CC436",
+    "toolbar.hoverBackground": "#0054E31A",
+    "toolbar.hoverOutline": "#0054E3",
     "titleBar.activeBackground": "#0054E3",
     "titleBar.activeForeground": "#FFFFFF",
     "titleBar.border": "#003399",
     "titleBar.inactiveBackground": "#D1E4FE",
     "titleBar.inactiveForeground": "#000000",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#ED2C28",
+    "terminal.ansiGreen": "#2CC436",
+    "terminal.ansiYellow": "#808000",
+    "terminal.ansiBlue": "#0054E3",
+    "terminal.ansiMagenta": "#800080",
+    "terminal.ansiCyan": "#008080",
+    "terminal.ansiWhite": "#D1E4FE",
+    "terminal.ansiBrightBlack": "#808080",
+    "terminal.ansiBrightRed": "#FF6B6B",
+    "terminal.ansiBrightGreen": "#37F244",
+    "terminal.ansiBrightYellow": "#FFFF00",
+    "terminal.ansiBrightBlue": "#4C8CF5",
+    "terminal.ansiBrightMagenta": "#FF00FF",
+    "terminal.ansiBrightCyan": "#00FFFF",
+    "terminal.ansiBrightWhite": "#FFFFFF"
   },
   "tokenColors": [
     {
@@ -181,6 +212,33 @@
       ],
       "settings": {
         "foreground": "#ED2C28"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#003399",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["variable.language"],
+      "settings": {
+        "foreground": "#0054E3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#1E8A25"
+      }
+    },
+    {
+      "scope": ["invalid.illegal"],
+      "settings": {
+        "foreground": "#ED2C28",
+        "fontStyle": "bold"
       }
     }
   ]

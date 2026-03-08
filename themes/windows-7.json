@@ -6,6 +6,7 @@
     "activityBar.background": "#2672EC",
     "activityBar.border": "#1960D1",
     "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#FFFFFF80",
     "activityBarBadge.background": "#E81123",
     "activityBarBadge.foreground": "#FFFFFF",
     "badge.background": "#2672EC",
@@ -32,7 +33,7 @@
     "editorLineNumber.foreground": "#767676",
     "editorWhitespace.foreground": "#D4D4D4",
     "focusBorder": "#2672EC",
-    "icon.foreground": "#FFFFFF",
+    "icon.foreground": "#000000",
     "input.background": "#FFFFFF",
     "input.border": "#CCCCCC",
     "input.foreground": "#000000",
@@ -81,6 +82,34 @@
     "tab.hoverForeground": "#FFFFFF",
     "terminal.background": "#FFFFFF",
     "terminal.foreground": "#000000",
+    "diffEditor.insertedLineBackground": "#0080001A",
+    "diffEditor.insertedTextBackground": "#00800033",
+    "diffEditor.removedLineBackground": "#A315151A",
+    "diffEditor.removedTextBackground": "#A3151533",
+    "gitDecoration.addedResourceForeground": "#008000",
+    "gitDecoration.conflictingResourceForeground": "#FF4081",
+    "gitDecoration.deletedResourceForeground": "#A31515",
+    "gitDecoration.ignoredResourceForeground": "#767676",
+    "gitDecoration.modifiedResourceForeground": "#2672EC",
+    "gitDecoration.untrackedResourceForeground": "#267F99",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#A31515",
+    "terminal.ansiGreen": "#008000",
+    "terminal.ansiYellow": "#795E26",
+    "terminal.ansiBlue": "#0000FF",
+    "terminal.ansiMagenta": "#800080",
+    "terminal.ansiCyan": "#267F99",
+    "terminal.ansiWhite": "#D4D4D4",
+    "terminal.ansiBrightBlack": "#767676",
+    "terminal.ansiBrightRed": "#E81123",
+    "terminal.ansiBrightGreen": "#00C800",
+    "terminal.ansiBrightYellow": "#FFCC00",
+    "terminal.ansiBrightBlue": "#2672EC",
+    "terminal.ansiBrightMagenta": "#C800C8",
+    "terminal.ansiBrightCyan": "#00D7D7",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "toolbar.hoverBackground": "#2672EC1A",
+    "toolbar.hoverOutline": "#2672EC",
     "titleBar.activeBackground": "#2672EC",
     "titleBar.activeForeground": "#FFFFFF",
     "titleBar.border": "#1960D1",
@@ -190,6 +219,33 @@
       ],
       "settings": {
         "foreground": "#800000"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#001080",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["variable.language"],
+      "settings": {
+        "foreground": "#0000FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#098658"
+      }
+    },
+    {
+      "scope": ["invalid.illegal"],
+      "settings": {
+        "foreground": "#CD3131",
+        "fontStyle": "bold"
       }
     }
   ]
