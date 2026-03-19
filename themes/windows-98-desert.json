@@ -261,6 +261,68 @@
         "foreground": "#C05A5A",
         "fontStyle": "bold"
       }
+    },
+    {
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#C09060"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "entity.name.tag.html",
+        "entity.name.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#A8C0A0"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#D4C088"
+      }
+    },
+    {
+      "scope": [
+        "support.type.property-name",
+        "support.type.property-name.css",
+        "support.type.property-name.less",
+        "support.type.property-name.scss"
+      ],
+      "settings": {
+        "foreground": "#6AAAA0"
+      }
+    },
+    {
+      "scope": ["string.regexp", "constant.regexp"],
+      "settings": {
+        "foreground": "#C05A5A"
+      }
+    },
+    {
+      "scope": [
+        "meta.decorator",
+        "entity.name.function.decorator",
+        "punctuation.decorator"
+      ],
+      "settings": {
+        "foreground": "#6A9A8A"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.namespace",
+        "entity.name.type.namespace",
+        "entity.name.module"
+      ],
+      "settings": {
+        "foreground": "#A8C0A0"
+      }
     }
   ]
 }
