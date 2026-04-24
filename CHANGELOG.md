@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.3.3 - 2026-04-23
+### Fixes
+- Removed orphaned Windows Vista entry from `package.json` (theme file was never created)
+- Fixed CHANGELOG version typo (`v1,2,7` → `v1.2.7`)
+
+### Improvements
+- **Windows 3.1 Classic**: Added ~34 missing workbench color keys (`input.*`, `menu.*`, `scrollbarSlider.*`, `sideBarSectionHeader.*`, `tab.*`, `editorGroup.*`, and more) and missing markup token scopes (`markup.heading`, `markup.italic`, `markup.bold`, `markup.inline.raw/fenced_code.block`)
+- **Windows 98**: Added `activityBarTop.foreground`, `tab.hoverBackground`, `tab.hoverForeground`, `tab.activeModifiedBorder`, `tab.inactiveModifiedBorder`
+- **Windows XP Blue**: Added `activityBarTop.foreground`, `menu.background`, `scrollbarSlider.hoverBackground`
+- **All light themes**: Added `activityBarTop.foreground` to Windows ME, XP Light, XP Blue, 7, 98, and 3.1 Classic; set to `#616161` on themes with colored activity bars for better contrast when the activity bar is positioned at the top
+
 ## v1.3.0 - 2026-03-07
 ### Fixes
 - Fixed JSON syntax error (trailing comma) in Windows XP Blue theme
@@ -17,7 +28,7 @@
 - **Windows 98 Desert**: Differentiated previously near-identical token colors — comments (olive), strings (amber), constants (burnt orange), keywords (bright gold), functions (teal), types (sage)
 - **Windows 98 Eggplant**: Differentiated previously near-identical token colors — comments (muted purple), strings (sage green), constants (gold), keywords (pink-purple), functions (blue-teal), types (sky blue)
 
-## v1,2,7 - 2025-12-24
+## v1.2.7 - 2025-12-24
 ### Improvements
 - Finetuning colors in some Windows XP themes and Windows 7 theme
 
