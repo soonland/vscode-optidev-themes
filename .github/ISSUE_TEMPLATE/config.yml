@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussion
+    url: https://github.com/soonland/vscode-optidev-themes/discussions
+    about: General discussion and ideas
+
+# Show templates chooser when opening a new issue
+issue_template:
+  - name: Bug report
+    about: Report a visual or functional issue with a theme
+    template: bug_report.md
+  - name: Feature request
+    about: Request a new theme or enhancement
+    template: feature_request.md
