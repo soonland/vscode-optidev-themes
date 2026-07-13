@@ -23,8 +23,5 @@ How the theme should look or behave.
 ## Screenshots or recordings
 Attach screenshots or paste links showing the issue.
 
-## Theme snippet (optional)
-If you can, paste the small JSON snippet from the theme (colors or tokenColors) that seems wrong.
-
 ## Additional context
 Any other details (extensions, custom settings, quick steps that consistently reproduce it).
