@@ -22,7 +22,7 @@
     "editor.background": "#303B43",
     "editor.foreground": "#E8EFF4",
     "editor.findMatchBackground": "#7994A8",
-    "editor.findMatchHighlightBackground": "#7994A81A",
+    "editor.findMatchHighlightBackground": "#7994a849",
     "editor.lineHighlightBackground": "#6176864D",
     "editor.selectionBackground": "#7994A833",
     "editor.selectionForeground": "#E8EFF4",
@@ -235,34 +235,44 @@
       }
     },
     {
-      "scope": ["variable.parameter"],
+      "scope": [
+        "variable.parameter"
+      ],
       "settings": {
         "foreground": "#91B2CA",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": ["variable.language"],
+      "scope": [
+        "variable.language"
+      ],
       "settings": {
         "foreground": "#91B2CA",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": ["meta.object-literal.key"],
+      "scope": [
+        "meta.object-literal.key"
+      ],
       "settings": {
         "foreground": "#60A0C0"
       }
     },
     {
-      "scope": ["invalid.illegal"],
+      "scope": [
+        "invalid.illegal"
+      ],
       "settings": {
         "foreground": "#C05060",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": ["keyword.operator"],
+      "scope": [
+        "keyword.operator"
+      ],
       "settings": {
         "foreground": "#7994A8"
       }
@@ -298,7 +308,10 @@
       }
     },
     {
-      "scope": ["string.regexp", "constant.regexp"],
+      "scope": [
+        "string.regexp",
+        "constant.regexp"
+      ],
       "settings": {
         "foreground": "#C05060"
       }

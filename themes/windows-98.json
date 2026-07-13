@@ -22,8 +22,10 @@
     "dropdown.listBackground": "#FFFFFF",
     "editor.background": "#FFFFFF",
     "editor.foreground": "#000000",
-    "editor.findMatchBackground": "#000080",
+    "editor.findMatchBackground": "#0000806d",
+    "editor.findMatchForeground": "#000000EE",
     "editor.findMatchHighlightBackground": "#0000801A",
+    "editor.findMatchHighlightForeground": "#000000EE",
     "editor.lineHighlightBackground": "#0000801A",
     "editor.selectionBackground": "#00008033",
     "editor.selectionForeground": "#FFFFFF",
@@ -241,34 +243,44 @@
       }
     },
     {
-      "scope": ["variable.parameter"],
+      "scope": [
+        "variable.parameter"
+      ],
       "settings": {
         "foreground": "#800080",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": ["variable.language"],
+      "scope": [
+        "variable.language"
+      ],
       "settings": {
         "foreground": "#000080",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": ["meta.object-literal.key"],
+      "scope": [
+        "meta.object-literal.key"
+      ],
       "settings": {
         "foreground": "#008080"
       }
     },
     {
-      "scope": ["invalid.illegal"],
+      "scope": [
+        "invalid.illegal"
+      ],
       "settings": {
         "foreground": "#FF0000",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": ["keyword.operator"],
+      "scope": [
+        "keyword.operator"
+      ],
       "settings": {
         "foreground": "#FF0000"
       }
@@ -304,7 +316,10 @@
       }
     },
     {
-      "scope": ["string.regexp", "constant.regexp"],
+      "scope": [
+        "string.regexp",
+        "constant.regexp"
+      ],
       "settings": {
         "foreground": "#800000"
       }
