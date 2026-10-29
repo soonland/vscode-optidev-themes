@@ -11,11 +11,17 @@ Thank you for reporting a problem — please fill in the sections below so the m
 ## What happened?
 Briefly describe the problem you saw.
 
+## Environment
+- Theme name (as shown in the theme picker, e.g. "Windows 8 Blue"):
+- Extension version (Extensions view → Retro Windows Themes):
+- VS Code version (Help → About):
+- OS and display scale (e.g., macOS 14, Windows 11 at 125%):
+
 ## Steps to reproduce
-1. VS Code version (Help → About):
-2. OS and display scale (e.g., macOS 12, 125%):
-3. Theme name (file from themes/):
-4. Steps to reproduce (what you did, which file/language, and where you saw the issue):
+1. What you did (which file, which language, which part of the UI):
+2. Where you saw the issue:
+
+For syntax-coloring problems, please also include the language and, if you can, the token's scope (run **Developer: Inspect Editor Tokens and Scopes** from the Command Palette and click the token).
 
 ## Expected behavior
 How the theme should look or behave.
@@ -24,4 +30,4 @@ How the theme should look or behave.
 Attach screenshots or paste links showing the issue.
 
 ## Additional context
-Any other details (extensions, custom settings, quick steps that consistently reproduce it).
+Any other details (other extensions, custom settings or `workbench.colorCustomizations`, quick steps that consistently reproduce it).

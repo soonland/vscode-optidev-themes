@@ -9,7 +9,7 @@ assignees: ''
 What would you like to see added or changed? Please describe your idea clearly.
 
 ## Proposal
-Describe the theme, change, or new variant you'd like (e.g., "Windows 98 - Rainy Day variant with muted blues").
+Describe the theme, change, or new variant you'd like (e.g., "a Windows Vista theme" or "a lighter sidebar in Windows 98 Desert").
 
 ## Why is this useful?
 Explain the use case or audience for this change.
@@ -17,8 +17,11 @@ Explain the use case or audience for this change.
 ## Design notes / examples
 Provide screenshots, reference images, color palettes, or links to inspiration.
 
-## Acceptance criteria
-What would make this request "done"? (e.g., new JSON theme file in themes/, preview screenshot in media/, update README)
+## Light or dark?
+Should it be a light or a dark theme? Mention any accessibility considerations (contrast, color blindness).
+
+## What would make this done for you?
+Describe the result you're hoping for (e.g., a new theme in the picker, a specific color changed).
 
 ## Additional context
-Any other info that helps (preferred uiTheme: vs / vs-dark, accessibility considerations).
+Any other info that helps.
