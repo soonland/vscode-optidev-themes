@@ -2,3 +2,9 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+.github/**
+CLAUDE.md
+.gitattributes
+.DS_Store
+media/**
+!media/icon.png

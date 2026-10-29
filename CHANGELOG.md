@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.4.0 - 2026-10-29
+### New themes
+- **Windows 8**: Flat Metro look on a deep purple Start-screen base, with tile-colored chrome (magenta activity bar, teal status bar, amber accents) and Metro-palette syntax colors
+- **Windows 8 Blue**: Deep navy base with orange activity bar, green status bar and cyan selections
+- **Windows 8 Green**: Forest green base with magenta activity bar, cyan status bar and teal strings
+
+### Fixes
+- **Windows 98 Eggplant**: Find matches were barely readable (light text on a light sage background, and other matches almost transparent). The current match is now plum and other matches use a 40% sage tint
+
 ## v1.3.3 - 2026-04-23
 ### Fixes
 - Removed orphaned Windows Vista entry from `package.json` (theme file was never created)

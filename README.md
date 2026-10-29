@@ -2,7 +2,7 @@
 
 ## Overview
 
-Retro Windows Themes is a comprehensive collection of Visual Studio Code themes that bring the nostalgic look and feel of classic Windows operating systems to your modern development environment. Experience the evolution of Windows UI design, from Windows 3.1 to Windows 7, right in your code editor!
+Retro Windows Themes is a comprehensive collection of Visual Studio Code themes that bring the nostalgic look and feel of classic Windows operating systems to your modern development environment. Experience the evolution of Windows UI design, from Windows 3.1 to Windows 8, right in your code editor!
 
 ## ✨ Features
 
@@ -15,6 +15,10 @@ Retro Windows Themes is a comprehensive collection of Visual Studio Code themes 
 ## 🎯 Themes Collection
 
 ### Modern Era
+- **Windows 8 Collection** 🟪: Flat Metro design with Start-screen color fields and tile-colored chrome
+  - **Windows 8**: The purple Start screen
+  - **8 Blue**: Deep blue with orange and green tiles
+  - **8 Green**: Forest green with magenta and cyan tiles
 - **Windows 7 Aero** 🌟: Experience the sleek Aero Glass effect with modern flourishes
 - **Windows XP Collection** 🎨:
   - **XP Light**: The classic Luna theme experience
@@ -46,6 +50,11 @@ Or manually:
 5. `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T` to select theme
 
 ## 🖼️ Theme Previews
+
+### Windows 8
+![Windows 8](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-8.png)
+![Windows 8 Blue](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-8-blue.png)
+![Windows 8 Green](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-8-green.png)
 
 ### Windows 7
 ![Windows 7 Preview](https://raw.githubusercontent.com/soonland/vscode-optidev-themes/main/media/windows-7.png)
